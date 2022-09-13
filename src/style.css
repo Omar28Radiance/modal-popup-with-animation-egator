@@ -56,3 +56,8 @@ button:hover {
 .modal .card .brand {
   width: 30rem;
 }
+
+.modal .card .brand img {
+  display: block;
+  width: 100%;
+}
