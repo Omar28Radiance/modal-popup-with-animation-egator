@@ -36,3 +36,12 @@ button:hover {
   place-items: center;
   background: rgba(0, 0, 0, 0.3);
 }
+
+.modal .card {
+  background: white;
+  width: 50rem;
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  position: relative;
+}
