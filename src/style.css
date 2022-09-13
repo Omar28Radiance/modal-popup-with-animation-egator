@@ -73,4 +73,9 @@ button:hover {
   justify-content: space-between;
 }
 
-
+.modal .card input[type="email"] {
+  background: #eee;
+  width: 100%;
+  padding: 1rem;
+  outline: none;
+}
