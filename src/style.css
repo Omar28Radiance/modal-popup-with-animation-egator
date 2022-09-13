@@ -45,3 +45,10 @@ button:hover {
   padding: 2rem;
   position: relative;
 }
+
+.modal .card #close {
+  position: absolute;
+  top: 2rem;
+  right: 2rem; 
+  font-size: 1.3rem; 
+}
