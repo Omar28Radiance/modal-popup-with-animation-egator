@@ -79,3 +79,10 @@ button:hover {
   padding: 1rem;
   outline: none;
 }
+
+.modal .card input[type="submit"] {
+  background: #f24438;
+  color: white;
+  padding: 0 1.6rem;
+}
+
