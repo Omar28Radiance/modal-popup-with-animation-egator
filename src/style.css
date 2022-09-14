@@ -87,6 +87,17 @@ button:hover {
   padding: 0 1.6rem;
 }
 
+@keyframes openModal {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* ------------ MEDIA QUERIES ------------*/
+
 @media screen and (max-width: 800px) {
   .modal .card {
     flex-direction: column;
