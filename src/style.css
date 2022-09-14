@@ -86,3 +86,10 @@ button:hover {
   padding: 0 1.6rem;
 }
 
+@media screen and (max-width: 800px) {
+  .modal .card {
+    flex-direction: column;
+    width: 80vw;
+    text-align: center;
+  }
+}
