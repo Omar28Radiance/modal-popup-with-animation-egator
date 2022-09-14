@@ -14,7 +14,10 @@ function openModal(){
 closeBtn.addEventListener('click', closeModal);
 
 function closeModal(){
-    modal.style.display = 'none';
+    modal.classList.add('close-modal-animation');
+    setTimeout(() => {
+        modal.style.display = 'none';
+    }, 1000);
 }
 
 modal.addEventListener('click', function(e){
