@@ -92,4 +92,12 @@ button:hover {
     width: 80vw;
     text-align: center;
   }
+
+  .modal .card .brand {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 4rem;
+  }
 }
