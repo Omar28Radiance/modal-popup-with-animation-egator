@@ -43,6 +43,7 @@ button:hover {
   background: white;
   width: 50rem;
   display: flex;
+  align-items: center;
   gap: 2rem;
   padding: 2rem;
   position: relative;
@@ -88,12 +89,24 @@ button:hover {
   padding: 0 1.6rem;
 }
 
+
+/* OPEN MODAL ANIMATION */
 @keyframes openModal {
   from {
     opacity: 0;
   }
   to {
     opacity: 1;
+  }
+}
+
+/* CLOSE MODAL ANIMATION */
+@keyframes closeModal {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
   }
 }
 
