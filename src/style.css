@@ -100,4 +100,8 @@ button:hover {
     overflow: hidden;
     margin-top: 4rem;
   }
+
+  .modal .card form {
+    display: block;
+  }
 }
