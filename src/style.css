@@ -104,4 +104,8 @@ button:hover {
   .modal .card form {
     display: block;
   }
+
+  .modal .card form input[type=email], .modal .card form input[type=email]::placeholder {
+    text-align: center;
+  }
 }
