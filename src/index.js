@@ -20,7 +20,7 @@ function closeModal(){
     setTimeout(() => {
         modal.style.display = 'none';
         window.location.reload();
-    }, 1000);
+    }, 500);
 }
 
 modal.addEventListener('click', function(e){
@@ -35,4 +35,8 @@ form.addEventListener('submit', submitForm);
 
 function submitForm(){
     const card = document.querySelector('.card');
+    card.innerHTML = "<h1>Thanks for your subscription!</h1>";
+    setTimeout(() => {
+        closeModal();
+    }, 3000);
 };
